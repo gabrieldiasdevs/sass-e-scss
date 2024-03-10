@@ -1,8 +1,20 @@
-div {
+div, main {
   background: #ddd;
 }
-div p {
-  color: lightblue;
+div p, div h2, main p, main h2 {
+  color: blue;
+}
+
+main .p-vermelho {
+  color: red;
+}
+
+li {
+  color: purple;
+}
+
+ol > li {
+  color: blue;
 }
 
 /*# sourceMappingURL=styles.css.map */
