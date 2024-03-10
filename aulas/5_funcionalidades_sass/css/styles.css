@@ -11,6 +11,12 @@
   color: white;
 }
 
+.esp-maior-ainda, .esp-maior, .esp-medio, .esp-menor {
+  font-size: 3rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
 body {
   margin: 20px;
 }
@@ -71,6 +77,26 @@ h2:hover {
   border: 8px double gold;
   color: gold;
   background-color: white;
+}
+
+.container-menor {
+  width: 200px;
+  border: 1px solid green;
+}
+
+.container-maior {
+  border: 1px solid red;
+  width: 135rem;
+}
+
+.fonte-pequena {
+  font-size: 5px;
+  color: blue;
+}
+
+.fonte-grande {
+  font-size: 20px;
+  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

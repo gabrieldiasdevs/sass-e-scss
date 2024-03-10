@@ -1,0 +1,10 @@
+@function text-color($size)
+
+    $color: #000
+
+    @if $size > 10
+        $color: red
+    @else
+        $color: blue
+
+    @return $color
