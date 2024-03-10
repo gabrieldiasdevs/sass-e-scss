@@ -16,4 +16,10 @@
 @mixin espacamento($p, $m)
     padding: $p
     margin: $m
-    
+
+@mixin custom-border($style, $color, $width: 1px)
+    border: $width $style $color
+
+@mixin colors($font: black, $background: white)
+    color: $font
+    background-color: $background

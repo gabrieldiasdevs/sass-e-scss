@@ -14,18 +14,22 @@ h2
 
 .esp-menor
     @include espacamento(10px, 10px)
-    border: 1px solid red
+    @include custom-border(solid, red)
+    @include colors
 
 .esp-medio
     @include espacamento(20px, 20px)
-    border: 1px solid blue
+    @include custom-border(dotted, blue, 2px)
+    @include colors($background: #369, $font: #991155)
 
 .esp-maior
     @include espacamento(30px, 30px) 
-    border: 1px solid green
+    @include custom-border(solid, green, 4px)
+    @include colors($font: red)
 
 .esp-maior-ainda
     $pad: 50px
     $mag: 50px
     @include espacamento($pad, $mag) 
-    border: 1px solid orange
+    @include custom-border(double, gold, 8px)
+    @include colors($font: gold)
