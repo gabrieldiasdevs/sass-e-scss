@@ -1,0 +1,44 @@
+.btn {
+  background-color: #ddd;
+  color: #000;
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+body {
+  margin: 20px;
+}
+
+.p-esp {
+  color: red;
+  background-color: yellow;
+  padding: 10px;
+  border: 4px solid red;
+}
+.p-esp:hover {
+  border-color: blue;
+  color: blue;
+  background-color: lightblue;
+}
+
+h2 {
+  color: red;
+  background-color: yellow;
+  padding: 10px;
+  border: 4px solid red;
+  border-color: green;
+  color: green;
+}
+h2:hover {
+  border-color: blue;
+  color: blue;
+  background-color: lightblue;
+}
+
+/*# sourceMappingURL=styles.css.map */
