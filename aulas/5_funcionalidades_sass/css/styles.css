@@ -44,16 +44,25 @@ h2:hover {
 .esp-menor {
   padding: 10px;
   margin: 10px;
+  border: 1px solid red;
 }
 
 .esp-medio {
-  padding: 15px;
-  margin: 15px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid blue;
 }
 
 .esp-maior {
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid green;
+}
+
+.esp-maior-ainda {
+  padding: 50px;
+  margin: 50px;
+  border: 1px solid orange;
 }
 
 /*# sourceMappingURL=styles.css.map */

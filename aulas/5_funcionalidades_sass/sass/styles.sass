@@ -13,13 +13,19 @@ h2
     @include green
 
 .esp-menor
-    padding: 10px
-    margin: 10px
+    @include espacamento(10px, 10px)
+    border: 1px solid red
 
 .esp-medio
-    padding: 15px
-    margin: 15px
+    @include espacamento(20px, 20px)
+    border: 1px solid blue
 
 .esp-maior
-    padding: 20px
-    margin: 20px
+    @include espacamento(30px, 30px) 
+    border: 1px solid green
+
+.esp-maior-ainda
+    $pad: 50px
+    $mag: 50px
+    @include espacamento($pad, $mag) 
+    border: 1px solid orange
