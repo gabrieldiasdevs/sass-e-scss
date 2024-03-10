@@ -1,9 +1,15 @@
 h1 {
   color: blue;
+  border: 2px solid red;
+  font-size: 3rem;
 }
 
 p {
   color: blue;
+  border: 2px solid red;
+  font-size: 3rem;
+  margin: 12px;
+  padding: 16px;
 }
 
 a {
@@ -11,8 +17,9 @@ a {
 }
 
 div p {
-  background-color: red;
+  background-color: gray;
   color: white;
+  border: 3px dotted green;
 }
 
 h2 {

@@ -1,12 +1,16 @@
-$text-color: blue
-$bg-color: red
-$h2-color: green
-
+@import 'variables' 
+    
 h1
     color: $text-color
+    border: $border
+    font-size: $main-font
 
 p
     color: $text-color
+    border: $border
+    font-size: $main-font
+    margin: #{$mx + 10px}
+    padding: #{$px + $py}
 
 a
     color: $text-color
@@ -14,8 +18,10 @@ a
 div
     p
         $font-color: white
+        $border: 3px dotted green
         background-color: $bg-color
         color: $font-color
+        border: $border
 
 h2
     color: $h2-color
