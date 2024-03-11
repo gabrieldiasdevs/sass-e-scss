@@ -80,23 +80,41 @@ h2:hover {
 }
 
 .container-menor {
-  width: 200px;
-  border: 1px solid green;
+  width: 100px;
+  border: 1px solid red;
 }
 
 .container-maior {
-  border: 1px solid red;
+  border: 2px solid green;
   width: 135rem;
 }
 
 .fonte-pequena {
   font-size: 5px;
   color: blue;
+  border: 3px dotted gold;
 }
 
 .fonte-grande {
   font-size: 20px;
   color: red;
+  border: 1px solid red;
+}
+
+.teste-1 {
+  width: 100px;
+  background-color: red;
+}
+
+.teste-2 {
+  width: 500px;
+  background-color: green;
+}
+
+.teste-3 {
+  width: 40px;
+  padding: 20px;
+  background-color: blue;
 }
 
 /*# sourceMappingURL=styles.css.map */
