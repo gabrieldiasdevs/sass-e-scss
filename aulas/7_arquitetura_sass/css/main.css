@@ -6,4 +6,9 @@ h1 {
   text-align: center;
 }
 
-/*# sourceMappingURL=styles.css.map */
+p {
+  color: red;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
