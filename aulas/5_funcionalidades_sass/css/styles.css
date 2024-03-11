@@ -117,4 +117,34 @@ h2:hover {
   background-color: blue;
 }
 
+.title-40px {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.title-60px {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.title-100px {
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.p-1 {
+  color: lightblue;
+  background-color: black;
+}
+
+.p-2 {
+  color: lightgreen;
+  background-color: black;
+}
+
+.p-3 {
+  color: teal;
+  background-color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
