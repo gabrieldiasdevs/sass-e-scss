@@ -1,6 +1,192 @@
-h1 {
-  color: red;
+#main-banner .title-container h1, #main-banner .title-container h2 {
+  text-shadow: 3px 2px #000;
+}
+
+.jobs-container h2, .services-container h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.jobs-container .jobs-list .first-job {
+  background-size: cover;
+  background-position: center;
+}
+
+.jobs-container .jobs-list .first-job .job-card-title, .jobs-container .jobs-list .first-job .job-card-cover, .jobs-container .jobs-list .first-job .job-card-description {
+  opacity: 0;
+}
+.jobs-container .jobs-list .first-job:hover .job-card-title, .jobs-container .jobs-list .first-job:hover .job-card-cover, .jobs-container .jobs-list .first-job:hover .job-card-description {
+  opacity: 1;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #FFF;
+}
+.btn:hover {
+  border-color: #FF5200;
+  color: #FF5200;
+}
+.btn-primary {
+  background-color: #FF5200;
+  border-color: #FF5200;
+}
+.btn-primary:hover {
+  background-color: transparent;
+}
+.btn-rounded {
+  margim-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#main-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/office.jpg");
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+#main-banner .nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: #000;
+  z-index: 10;
+}
+#main-banner .nav-container .brand {
+  color: #FFF;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+#main-banner .nav-container .brand:hover {
+  color: #FF5200;
+}
+#main-banner .nav-container-navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#main-banner .nav-container-navbar li {
+  margin: 5px 10px;
+}
+#main-banner .nav-container-navbar li a {
+  color: #FFF;
+  transition: 0.3s;
+}
+#main-banner .nav-container-navbar li a:hover {
+  color: #FF5200;
+}
+#main-banner .nav-container .fas.fa-bars {
+  font-size: 2rem;
+  color: #FFF;
+  display: none;
+}
+#main-banner .title-container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#main-banner .title-container h2 {
+  font-size: 3rem;
+}
+#main-banner .title-container h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services-container {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.services-container .services-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.services-container .services-card-container .services-card {
+  width: 30%;
+  margin: 1%;
+  padding: 2rem;
+  border: 1px solid #CCC;
+  transition: 0.3s;
+}
+.services-container .services-card-container .services-card i {
+  color: #FF5200;
+  font-size: 4rem;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.services-container .services-card-container .services-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.services-container .services-card-container .services-card p {
+  color: #8b8e94;
+}
+.services-container .services-card-container .services-card:hover {
+  border-color: transparent;
+  box-shadow: 0 1px 10px #CCC;
+}
+
+.jobs-container {
+  background-color: #e5eaff;
+  padding: 3rem;
+}
+.jobs-container .jobs-list {
+  display: flex;
+  padding: 2rem 0;
+}
+.jobs-container .jobs-list .first-job {
+  width: 30%;
+  height: 415px;
+  background-image: url("../img/job1.jpg");
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.jobs-container .jobs-list .other-jobs-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+}
+.jobs-container .jobs-list .other-jobs-container .job-card {
+  width: 46%;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
