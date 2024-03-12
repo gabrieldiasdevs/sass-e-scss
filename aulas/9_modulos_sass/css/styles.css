@@ -15,4 +15,19 @@
   background-color: #4a5511;
 }
 
+.color-5 {
+  background-color: purple;
+}
+
+.color-6 {
+  background-color: #353535;
+}
+
+.color-7 {
+  background-color: #234346;
+}
+.color-7:hover {
+  background-color: #346468;
+}
+
 /*# sourceMappingURL=styles.css.map */
