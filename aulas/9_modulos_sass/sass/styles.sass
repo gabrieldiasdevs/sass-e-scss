@@ -1,4 +1,5 @@
 @use 'sass:color'
+@use 'sass:list'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 100)
@@ -33,3 +34,14 @@ $color-scale2: color.scale($color-adjust2, $lightness: 40%)
 
     &:hover
         background-color: lighten(#234346, 10%)
+
+$lista: 10px, 20px, 30px
+
+@debug $lista
+
+$lista: list.append($lista, 40px)
+
+@debug $lista 
+
+@debug list.index($lista, 20px)
+@debug list.index($lista, 50px)
