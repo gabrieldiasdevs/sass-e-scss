@@ -2,3 +2,20 @@ $a: 10
 
 @debug $a
 @debug $a + 10px
+
+$str: "Roboto"
+$str2: Roboto
+
+@debug $str == $str2
+
+$nome-da-fonte: "Open"
+$var1: "Sans"
+$var2: "Teste"
+
+@debug $nome-da-fonte + " " + $var1
+
+p
+    font-family: $nome-da-fonte + " " + $var1
+
+h1
+    font-family: "#{$nome-da-fonte} #{$var2}"
