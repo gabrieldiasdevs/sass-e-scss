@@ -1,3 +1,5 @@
+@use 'sass:map'
+    
 $a: 10
 
 @debug $a
@@ -34,3 +36,8 @@ $list: 10, 20, 30
 @each $font in $list
     .p-#{$font}
         font-size: $font + "px"
+
+$font-weights: ("regular": 400, "bold": 700, "black": 900)
+
+h3
+    font-weight: map.get($font-weights, "black")
