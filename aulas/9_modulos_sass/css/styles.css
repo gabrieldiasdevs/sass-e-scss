@@ -34,4 +34,12 @@ h1 {
   font-size: 60px;
 }
 
+h1 {
+  border: 2px solid red;
+}
+
+h2 {
+  font-size: "53px";
+}
+
 /*# sourceMappingURL=styles.css.map */

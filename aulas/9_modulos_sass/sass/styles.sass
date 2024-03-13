@@ -1,5 +1,8 @@
 @use 'sass:color'
 @use 'sass:list'
+@use 'sass:map'
+@use 'sass:math'
+@use 'sass:meta'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 100)
@@ -61,3 +64,45 @@ $font-size-title: list.nth($lista3, 5)
 
 h1
     font-size: $font-size-title
+
+
+$m: ('font': 3px, 'color': blue, 'bold': false)
+$n: ('border': 2px solid red, 'transition': 1s)
+
+$x: map.merge($m, $n)
+
+$border-title: map.get($n, 'border')
+
+h1
+    border: $border-title
+
+@debug map.has-key($x, 'transition')
+@debug map.has-key($x, 'teste')
+
+
+$pi: math.$pi
+
+$z: 3.5
+
+@debug math.ceil($z)
+@debug math.floor($z)
+
+@debug math.ceil($pi)
+
+$a: 1, 2, 3, 4, 5, 12
+
+@debug math.max($a...)
+@debug math.min($a...)
+
+@debug math.random()
+
+@debug math.floor(math.random() * 10)
+
+$pixel: math.floor(math.random() * 70) + 'px'
+
+@debug $pixel
+
+h2
+    font-size: $pixel
+
+
