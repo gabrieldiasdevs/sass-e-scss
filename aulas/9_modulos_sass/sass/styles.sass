@@ -3,6 +3,7 @@
 @use 'sass:map'
 @use 'sass:math'
 @use 'sass:meta'
+@use 'sass:string'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 100)
@@ -106,3 +107,34 @@ h2
     font-size: $pixel
 
 
+@debug meta.global-variable-exists('a')
+@debug meta.global-variable-exists('variavelinexistente')
+
+@debug meta.inspect($a)
+@debug meta.inspect($pi)
+
+@mixin test
+    margin: 0
+    padding: 0
+
+@debug meta.mixin-exists('test')
+
+@debug meta.type-of(2)
+@debug meta.type-of('aviao')
+@debug meta.type-of($a)
+@debug meta.type-of(('asd': 1))
+@debug meta.type-of(#FFF)
+@debug meta.type-of(bold)
+
+
+$frase: "O rato roeu a roupa do rei de roma"
+
+@debug string.index($frase, 'rei')
+@debug string.index($frase, 'brasil')
+
+@debug string.length($frase)
+
+@debug string.to-lower-case($frase)
+@debug string.to-upper-case($frase)
+
+@debug string.unique-id()
