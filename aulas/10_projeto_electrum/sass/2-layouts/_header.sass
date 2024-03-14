@@ -1,0 +1,133 @@
+@use '../1-base/variables'
+    
+.container__acesso
+    background-color: variables.$cinza-claro
+    width: 100vw
+
+    .acesso
+        margin: 0 auto
+        width: 85vw
+        height: 50px
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &__contato
+            display: flex
+            gap: 15px
+
+            span
+                color: white
+
+                i
+                    color: variables.$vermelho
+        &__conta
+            display: flex
+            gap: 15px
+
+            a
+                cursor: pointer
+                color: white
+                
+                i
+                    color: variables.$vermelho
+
+.container__menu
+    width: 100vw
+    background-color: variables.$cinza-escuro
+    border-bottom: 4px solid variables.$vermelho
+
+    .menu
+        margin: 0 auto
+        width: 85vw
+        height: 120px
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &__logo
+
+            a
+                color: white
+                font-weight: bold
+                font-size: 3rem
+                
+                i
+                    color: variables.$vermelho
+
+        &__pesquisa
+            background-color: white
+            border-radius: 30px
+            
+            .buscar
+                padding-left: 25px
+                width: 300px
+                height: 40px
+                border: none
+                border-radius: 30px 0px 0px 30px
+
+                &:focus
+                    outline: none
+            
+            .pesquisa
+                cursor: pointer
+                width: 100px
+                height: 40px
+                border: none
+                border-radius: 0px 30px 30px 0px
+                font-weight: bold
+                background-color: variables.$vermelho
+                color: white
+
+        &__carrinho
+            display: flex
+            gap: 20px
+
+            &__favoritos, &__sacola
+                cursor: pointer
+                display: flex
+                flex-direction: column
+                align-items: center
+
+                span
+                    text-align: center
+                    width: 19px
+                    height: 21px
+                    background-color: variables.$vermelho
+                    color: white
+                    border-radius: 50%
+                    position: relative
+                    left: 30%
+                    bottom: 30%
+
+
+                i
+                    color: white
+                    position: absolute
+
+                a
+                    color: white
+
+.container__nav
+    width: 100vw
+    border-bottom: 1px solid gray
+
+    nav
+        display: flex
+        align-items: center
+        margin: 0 auto
+        width: 85vw
+        height: 50px
+
+        ul
+            display: flex
+            gap: 20px
+
+            li
+                cursor: pointer
+                font-weight: bold
+                color: variables.$cinza-escuro
+
+                &:hover
+                    color: variables.$vermelho
+                    border-bottom: 1px solid variables.$vermelho
