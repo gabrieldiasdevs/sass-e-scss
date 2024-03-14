@@ -146,4 +146,98 @@ li {
   border-bottom: 1px solid #D10025;
 }
 
+.container__novidades {
+  width: 100vw;
+}
+.container__novidades .novidades {
+  margin: 70px auto;
+  width: 85vw;
+  display: flex;
+  gap: 40px;
+}
+.container__novidades .novidades__promocao {
+  background-image: url("../../assets/banner-1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+  height: 30vh;
+}
+.container__novidades .novidades__promocao__texto {
+  width: 75%;
+  height: 100%;
+  border-radius: 0px 0px 100px 0px;
+  background-color: rgba(209, 0, 37, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.container__novidades .novidades__promocao__texto h2 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 25px;
+}
+.container__novidades .novidades__promocao__texto a {
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+.container__novidades .novidades__lancamento {
+  background-image: url("../../assets/banner-2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+  height: 30vh;
+}
+.container__novidades .novidades__lancamento__texto {
+  width: 75%;
+  height: 100%;
+  border-radius: 0px 0px 100px 0px;
+  background-color: rgba(209, 0, 37, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.container__novidades .novidades__lancamento__texto h2 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 25px;
+}
+.container__novidades .novidades__lancamento__texto a {
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+.container__novidades .novidades__potente {
+  background-image: url("../../assets/banner-3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+  height: 30vh;
+}
+.container__novidades .novidades__potente__texto {
+  width: 75%;
+  height: 100%;
+  border-radius: 0px 0px 100px 0px;
+  background-color: rgba(209, 0, 37, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.container__novidades .novidades__potente__texto h2 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 25px;
+}
+.container__novidades .novidades__potente__texto a {
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=app.css.map */
